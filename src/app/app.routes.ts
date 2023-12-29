@@ -7,11 +7,6 @@ import { EmployeetableComponent } from './employeetable/employeetable.component'
 
 export const routes: Routes = [
   {
-    path:"",
-    redirectTo:"Hotel",
-    pathMatch:'full'
-  },
-  {
     path:"Hotel",
     component:HotelbookingComponent
   },
