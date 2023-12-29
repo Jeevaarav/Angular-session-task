@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { HotelbookingComponent } from '../hotelbooking/hotelbooking.component';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-bookingoption',
   standalone: true,
-  imports: [HotelbookingComponent,RouterOutlet],
+  imports: [HotelbookingComponent,RouterOutlet,RouterLink],
   templateUrl: './bookingoption.component.html',
   styleUrl: './bookingoption.component.css'
 })
 export class BookingoptionComponent {
+  constructor(){
 
+  }
 }
